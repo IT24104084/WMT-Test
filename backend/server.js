@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // Import user routes (register, login)
-const userRoutes = require("./routes/userRoutes");
+const userRoutes = require("./routes/UserRoutes");
 
 // Use the routes under /api prefix
 // Example: POST /api/register, POST /api/login
